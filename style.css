@@ -1,3 +1,47 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.title {
+	text-align: center;
+	background-color: #FF1493;
+}
+
+.topbar {
+	text-align: center;
+	background-color: #FF1493;
+}
+
+.jake {
+	text-align: center;
+	background-color: #FF1493;
+}
+
+.deadline {
+	background-color: #AD0E64;
+}
+
+.news {
+	text-align: center;
+	background-color: #3D2B36;
+}
+
+.whoru {
+	text-align: center;
+	background-color: #FF1493;
+}
+
+.preview-bar {
+	text-align: right;
+}
+
+.classification {
+	display: inline-block;
+	padding: 15px;
+	padding-top: 30px;
+}
+
 
 h1 {
 	font-family: "Futura", Arial, sans-serif;
@@ -59,7 +103,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 li {
@@ -74,6 +117,7 @@ li a {
     text-decoration: none;
 }
 
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #FF1493;
@@ -82,16 +126,19 @@ li a:hover {
 /* Bordered form */
 form {
 		font-family: "Futura", Arial, sans-serif;
-    border: 3px solid #000;
+    border: 30px solid #000;
+		width: 30%;
+		margin: 50px 200px;
+		text-align: right;
 }
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 200px;
     display: inline-block;
-    border: 1px solid #C91375;
+    border: 3px solid #C91375;
     box-sizing: border-box;
 }
 
@@ -101,7 +148,7 @@ button {
     background-color: #FF1493;
     color: black;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 7px 200px;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -109,6 +156,7 @@ button {
 
 /* Add a hover effect for buttons */
 button:hover {
+		background-color: #FF1493;
     opacity: 0.8;
 }
 
@@ -116,7 +164,7 @@ button:hover {
 /* Center the avatar image inside this container */
 .imgcontainer {
     text-align: center;
-    margin: 24px 0 12px 0;
+    margin: 64px 100px 12px 180px;
 }
 
 /* Avatar image */
@@ -127,13 +175,13 @@ img.avatar {
 
 /* Add padding to containers */
 .container {
-    padding: 16px;
+    padding: 30px;
 }
 
 /* The "Forgot password" text */
-span.psw {
-    float: right;
-    padding-top: 16px;
+.links {
+		text-align: right;
+		margin: 4px 120px 4px 280px;
 }
 
 /* Change styles for span and cancel button on extra small screens */
